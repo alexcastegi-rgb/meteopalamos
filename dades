@@ -1,1 +1,35 @@
-index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Estación Meteorológica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #eef2f3;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🌤️ Mi estación Weather Underground</h1>
+
+<div class="card" id="datos">
+  Cargando datos...
+</div>
+
+<script>
+  // Aquí cargaremos los datos
+</script>
+
+</body>
+</html>
